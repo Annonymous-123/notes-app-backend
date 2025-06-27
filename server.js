@@ -19,7 +19,7 @@ const port=3000;
 app.use(express.json());
 
 app.use(cors({
-  origin: "https://keeper-app-ann.onrender.com/", // your frontend Glitch URL
+  origin: "https://keeper-app-ann.onrender.com", // your frontend Glitch URL
   methods: ["GET", "POST", "PUT", "DELETE","PATCH"],
   credentials: true
 }));
